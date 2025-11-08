@@ -1,0 +1,53 @@
+<div id="cart-timer" style="background-color: #85C1B9; color: #fff; padding: 5px; text-align: center;">
+    <p>予約商品：<span id="timer">04:59</span></p>
+</div>
+
+<script>
+    let timerDuration = 299; // Default timer duration
+    let countdown; // Declare countdown variable
+    const timerElement = document.getElementById("timer");
+
+    function startTimer() {
+        // Clear any existing countdown to prevent multiple timers
+        clearInterval(countdown);
+
+        // Start the countdown
+        countdown = setInterval(function() {
+            let minutes = Math.floor(timerDuration / 60);
+            let seconds = timerDuration % 60;
+
+            // Format minutes and seconds
+            minutes = minutes < 10 ? "0" + minutes : minutes;
+            seconds = seconds < 10 ? "0" + seconds : seconds;
+
+            timerElement.innerHTML = minutes + ":" + seconds;
+
+            // Stop the countdown when it reaches zero
+            if (timerDuration <= 0) {
+                clearInterval(countdown);
+                timerElement.innerHTML = "0:00";
+            }
+            timerDuration--;
+        }, 1000);
+    }
+
+    function resetTimer() {
+        timerDuration = 299; // Reset to 4:59
+        timerElement.innerHTML = "04:59"; // Reset display
+        startTimer(); // Start the timer
+    }
+
+    // Call resetTimer when the cart drawer is opened
+    document.addEventListener('DOMContentLoaded', function() {
+        // Assuming you have a way to detect when the cart is opened
+        const cartDrawer = document.getElementById('cart-drawer'); // Replace with your cart drawer ID
+
+        // Example event listener for when the cart drawer opens
+        cartDrawer.addEventListener('open', resetTimer); // Adjust this to your actual event
+        // If you have a button to open the cart, you can use that instead:
+        // document.getElementById('open-cart-button').addEventListener('click', resetTimer);
+    });
+
+    // Start the timer on page load
+    startTimer();
+</script>

@@ -1,0 +1,89 @@
+{{ 'custom-variants-bundle.css' | asset_url | stylesheet_tag: preload: true }}
+<div class="custom-variants__container">
+  {%- unless product.has_only_default_variant -%}
+    {% for variant in product.variants %}
+      {% assign option_value = variant.option1 %}
+      {% assign price_regular = variant.price %}
+      {% assign compare_price = variant.compare_at_price %}
+      {% assign most_popular = variant.metafields.custom.popular_label %}
+      {% assign variant_info = variant.metafields.custom.info_text %}
+      {% assign free_gift_image = variant.metafields.custom.free_gift_image %}
+      {% assign free_gift_text = variant.metafields.custom.free_gift_text %}
+      {% assign free_shipping_image = variant.metafields.custom.free_shipping_icon %}
+      {% assign free_shipping_text = variant.metafields.custom.free_shipping_text %}
+      {% assign variant_image = variant.metafields.custom.variant_image %}
+      {% assign total_kits = variant.metafields.custom.total_kits %}
+      
+      {%- if compare_price > price_regular -%}
+        {% assign discount_percentage = 100 | times: compare_price | minus: price_regular | divided_by: compare_price | round %}
+      {%- else -%}
+        {% assign discount_percentage = 0 %}
+      {%- endif -%}
+      <div class="custom-variant_item">
+        <input 
+          class="sr-only variant-radio" 
+          type="radio" 
+          name="option1" 
+          form="{{ product_form_id }}" 
+          id="option-value-{{ variant.id }}" 
+          value="{{ variant.id }}" 
+          {% if forloop.first %}checked{% endif %}
+          data-price="{{ price_regular }}"
+          data-compare-price="{{ compare_price }}"
+          data-discount="{{ discount_percentage }}"
+        >
+    
+        <label class="custom-block__swatch custom-design_label" for="option-value-{{ variant.id }}">
+          {% if most_popular != blank %}
+            <span class="custom_badge most_popular">{{ most_popular }}</span>
+          {% endif %}
+          <div class="bundle__bar-grid">
+            {% if variant_image != blank %}
+              <img loading="lazy" src="{{ variant_image | img_url: '100x' }}" alt="variant_image">
+            {% endif %}
+            <div class="bundle__bar-title">
+              <div class="custom_label_title">
+                {{ option_value }}
+
+                {% if total_kits != blank and total_kits > 1 %}
+                  <span class="price_per_kit">{{ price_regular | divided_by: total_kits | money }} per kit</span>
+                {% endif %}
+              </div>
+              {% if variant_info != blank %}
+                <div class="custom_sub_label_title">{{ variant_info }}</div>
+              {% endif %}
+            </div>
+            <div class="bundle__bar-price">
+              <div class="custom_price_regular">{{ price_regular | money }}</div>
+              {% if compare_price > price_regular %}
+                <div class="custom_price_compare">{{ compare_price | money }}</div>
+              {% endif %}
+            </div>
+          </div>
+          
+          {% if free_gift_image != blank or free_gift_text != blank %}
+            <div class="custom_label_free-gift">
+              {% if free_gift_image != blank %}
+                <img loading="lazy" src="{{ free_gift_image | img_url: '50x' }}" alt="{{ free_gift_image.alt }}">
+              {% endif %}
+              {% if free_gift_text != blank %}
+                <div class="free-gift-text">{{ free_gift_text }}</div>
+              {% endif %}
+            </div>
+          {% endif %}
+          {% if free_shipping_image != blank or free_shipping_text != blank %}
+            <div class="custom_label_free-shipping">
+              {% if free_shipping_image != blank %}
+                <img loading="lazy" src="{{ free_shipping_image | img_url: '50x' }}" alt="{{ free_shipping_image.alt }}">
+              {% endif %}
+              {% if free_shipping_text != blank %}
+                <div class="free-shipping__text">{{ free_shipping_text | metafield_tag }}</div>
+              {% endif %}
+            </div>
+          {% endif %}
+        </label>
+      </div>
+    {% endfor %}
+  {%- endunless -%}
+</div>
+<script src="{{ 'custom-variants-bundle.js' | asset_url }}" defer></script>

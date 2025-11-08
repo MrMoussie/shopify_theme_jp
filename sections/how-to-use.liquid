@@ -1,0 +1,150 @@
+<section class="how-to-use">
+  <div class="container">
+    <div class="steps">
+      {% for block in section.blocks %}
+      <div class="step {% if block.settings.alignment == 'right' %}step-right{% endif %}">
+        <div class="step-image">
+          {% if block.settings.video %}
+              <video-media autoplay disablepictureinpicture controlslist="nodownload noplaybackrate nofullscreen" style="--aspect-ratio: {{ section.settings.video.aspect_ratio }}">
+                {{- block.settings.video | video_tag: playsinline: true, preload: 'metadata', muted: true, loop: true, controls: false -}}
+              </video-media>
+          {% elsif block.settings.image %}
+          <img src="{{ block.settings.image | image_url }}" alt="Step {{ forloop.index }}" />
+          {% else %}
+          <p>No media available for this step.</p>
+          {% endif %}
+        </div>
+        <div class="step-text">
+          <div class="step-number">{{ forloop.index }}</div>
+          <div class="step-content">
+            <h3>{{ block.settings.title }}</h3>
+            <p>{{ block.settings.description }}</p>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <style>
+    .how-to-use {
+      padding: 40px 20px;
+      background-color: #F0F0F0;
+      border-radius: 10px;
+    }
+    .how-to-use .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .steps {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .step {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      background: white;
+      border-radius: 15px;
+    }
+    .step.step-right {
+      flex-direction: row-reverse;
+    }
+    .step-image {
+      flex: 1.5;
+    }
+    .step-image video-media video, .step-image img {
+      max-width: 100%;
+      max-height: 420px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    .step-text {
+      padding-right: 5px;
+      flex: 1.5;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .step-number {
+      font-size: 20px;
+      font-weight: bold;
+      background: #85C1B9;
+      color: white;
+      width: 30px;
+      height: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+    }
+    .step-content h3 {
+      margin: 0;
+      font-size: 18px;
+      font-weight: bold;
+    }
+    .step-content p {
+      margin: 0;
+      font-size: 14px;
+    }
+  </style>
+</section>
+
+{% schema %}
+{
+  "name": "How to Use",
+  "blocks": [
+    {
+      "type": "step",
+      "name": "Step",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Step Image"
+        },
+        {
+          "type": "video",
+          "id": "video",
+          "label": "Step Video"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Step Title",
+          "default": "Step Title Here"
+        },
+        {
+          "type": "textarea",
+          "id": "description",
+          "label": "Step Description",
+          "default": "Description of this step goes here."
+        },
+        {
+          "type": "select",
+          "id": "alignment",
+          "label": "Image Alignment",
+          "default": "left",
+          "options": [
+            {
+              "value": "left",
+              "label": "Left"
+            },
+            {
+              "value": "right",
+              "label": "Right"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "How to Use",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}

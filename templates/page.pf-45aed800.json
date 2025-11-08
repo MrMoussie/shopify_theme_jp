@@ -1,0 +1,12 @@
+{
+  "sections": {
+    "pf-45aed800": {
+      "type": "pf-45aed800",
+      "settings": {}
+    }
+  },
+  "order": [
+    "pf-45aed800"
+  ],
+  "layout": "theme.pagefly"
+}
