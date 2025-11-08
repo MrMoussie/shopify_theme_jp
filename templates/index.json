@@ -122,7 +122,9 @@
       "blocks": {
         "item_LnQrmx": {
           "type": "item",
+          "name": "Nina",
           "settings": {
+            "image": "shopify://shop_images/Nina_Japanese.jpg",
             "column_size": "3",
             "title": "ニナ",
             "heading_tag": "h2",
@@ -135,6 +137,7 @@
         "item_ainUwj": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/Margaret_Japanese.jpg",
             "column_size": "3",
             "title": "マーガレット",
             "heading_tag": "h2",
@@ -147,6 +150,7 @@
         "item_f9pKzX": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/Sophie_Japanese.jpg",
             "column_size": "3",
             "title": "ソフィー",
             "heading_tag": "h2",
@@ -159,6 +163,7 @@
         "item_X7y4Rk": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/Marieke_Marie_Japanese.jpg",
             "column_size": "3",
             "title": "マリー",
             "heading_tag": "h2",
@@ -171,6 +176,7 @@
         "item_keexLe": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/Eva_Japanese.jpg",
             "column_size": "3",
             "title": "エヴァ",
             "heading_tag": "h2",
@@ -183,6 +189,7 @@
         "item_F9JR7j": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/Marie_Marion_Japanese.jpg",
             "column_size": "3",
             "title": "ダイアン",
             "heading_tag": "h2",
@@ -195,6 +202,7 @@
         "item_KURjeU": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/Shirley_Japanese.jpg",
             "column_size": "3",
             "title": "シャーリー",
             "heading_tag": "h2",
@@ -207,6 +215,7 @@
         "item_fXHC9X": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/Linda_Japanese.jpg",
             "column_size": "3",
             "title": "リンダ",
             "heading_tag": "h2",
@@ -219,6 +228,7 @@
         "item_AzcFtf": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/Esther_Japanese.jpg",
             "column_size": "3",
             "title": "エスター",
             "heading_tag": "h2",
