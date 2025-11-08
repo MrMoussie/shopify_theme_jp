@@ -54,7 +54,7 @@
     "featured_collection_GNQTtn": {
       "type": "featured-collection",
       "settings": {
-        "collection": "bestsellers",
+        "collection": "frontpage",
         "products": [],
         "full_width": true,
         "stack_products": false,
