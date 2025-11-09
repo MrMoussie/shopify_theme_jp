@@ -269,24 +269,28 @@
         "slide_bcz9M7": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/vogue.svg",
             "link": ""
           }
         },
         "slide_pU3iTN": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/Celestia_-_Social_Proof_cebcae84-9edb-4e68-a821-f6f5f2ccf5cd.svg",
             "link": ""
           }
         },
         "slide_gfXYFe": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/cosmopolitan.svg",
             "link": ""
           }
         },
         "slide_xDteB9": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/Women_s_Health_1feacb2f-1d26-4a5c-930e-1b32c0d93a08.svg",
             "link": ""
           }
         }
