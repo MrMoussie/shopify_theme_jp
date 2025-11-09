@@ -205,10 +205,37 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "rich_text_YbVydK": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_AWckCh": {
+          "type": "heading",
+          "settings": {
+            "text": "実際の顧客 - 実際の結果",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_AWckCh"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
     "main",
-    "custom_liquid_9ibKcN"
+    "custom_liquid_9ibKcN",
+    "rich_text_YbVydK"
   ]
 }
