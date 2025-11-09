@@ -384,25 +384,11 @@
             "media_ratio_mobile": "landscape"
           }
         },
-        "text_WXHgdb": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Talk about results of your customers and how your product improved their life.</p>",
-            "text_custom": false,
-            "text_font": "josefin_sans_n4",
-            "text_size": 16,
-            "text_size_mobile": 15,
-            "text_height": 150,
-            "text_mt": 24,
-            "text_mt_mobile": 24,
-            "text_color": "#000000"
-          }
-        },
         "item_4hze3W": {
           "type": "item",
           "settings": {
-            "percent": 90,
-            "text": "Noticed that this product has significantly improved their life."
+            "percent": 94,
+            "text": "明らかに柔らかく、滑らかな肌を報告しました。"
           }
         },
         "item_YtjTbU": {
@@ -422,7 +408,6 @@
       },
       "block_order": [
         "media_8tn4Ur",
-        "text_WXHgdb",
         "item_4hze3W",
         "item_YtjTbU",
         "item_669wGL"
