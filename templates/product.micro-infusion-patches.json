@@ -91,6 +91,7 @@
         "image_afCh3J": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/JA_badges.png",
             "alignment": "center",
             "max_width": 500
           }
