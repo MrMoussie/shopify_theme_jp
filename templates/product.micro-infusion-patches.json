@@ -128,6 +128,28 @@
             "content": "<p>Share some content to your customers about your products.</p>",
             "page": ""
           }
+        },
+        "collapsible_text_E8xKWJ": {
+          "type": "collapsible_text",
+          "name": "Guarantee",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "90日間返金保証",
+            "content": "<p>Share some content to your customers about your products.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_text_b8LYjp": {
+          "type": "collapsible_text",
+          "name": "Customer service",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "24時間年中無休のカスタマーサービス",
+            "content": "<p>Share some content to your customers about your products.</p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -145,7 +167,9 @@
         "image_afCh3J",
         "collapsible_text_pzH7xc",
         "collapsible_text_bptiyx",
-        "collapsible_text_G63dCb"
+        "collapsible_text_G63dCb",
+        "collapsible_text_E8xKWJ",
+        "collapsible_text_b8LYjp"
       ],
       "settings": {
         "full_width": true,
