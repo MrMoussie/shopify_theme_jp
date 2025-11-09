@@ -95,6 +95,17 @@
             "alignment": "center",
             "max_width": 500
           }
+        },
+        "collapsible_text_pzH7xc": {
+          "type": "collapsible_text",
+          "name": "Explanation",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "説明",
+            "content": "<p>Share some content to your customers about your products.</p>",
+            "page": "セラム成分"
+          }
         }
       },
       "block_order": [
@@ -109,7 +120,8 @@
         "quantity_selector_Ya3eP4",
         "buy_buttons",
         "liquid_tgwqXP",
-        "image_afCh3J"
+        "image_afCh3J",
+        "collapsible_text_pzH7xc"
       ],
       "settings": {
         "full_width": true,
