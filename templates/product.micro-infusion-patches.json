@@ -235,25 +235,27 @@
     "multi_column_Cpm6LR": {
       "type": "multi-column",
       "blocks": {
-        "item_Pz7GxT": {
+        "item_gr7Fyk": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_Jun_8_2025_at_01_20_28_PM_9faede4a-6b42-473d-b3ad-96491af34d68.png",
             "column_size": "3",
             "title": "スーザン・W",
-            "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "heading_tag": "h3",
+            "content": "",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
           }
         },
-        "item_gr7Fyk": {
+        "item_Pz7GxT": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_Jun_8_2025_at_12_37_18_PM_90b4a38b-bde5-4052-9287-f217799225d7.png",
             "column_size": "3",
-            "title": "Column title",
-            "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "リンダ・H",
+            "heading_tag": "h3",
+            "content": "",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -262,10 +264,11 @@
         "item_Tmhy8D": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_Jun_8_2025_at_12_37_14_PM_865b8b69-f7a9-469a-8920-055cb81b51b6.png",
             "column_size": "3",
-            "title": "Column title",
-            "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "パット・G",
+            "heading_tag": "h3",
+            "content": "",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -273,11 +276,11 @@
         }
       },
       "block_order": [
-        "item_Pz7GxT",
         "item_gr7Fyk",
+        "item_Pz7GxT",
         "item_Tmhy8D"
       ],
-      "name": "Multi-column",
+      "name": "Testimonials",
       "settings": {
         "full_width": true,
         "stack_on_mobile": false,
