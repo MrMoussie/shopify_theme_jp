@@ -362,6 +362,134 @@
         "border_thickness": 0,
         "lazy": true
       }
+    },
+    "ss_feature_17_tLmbPE": {
+      "type": "ss-feature-17",
+      "blocks": {
+        "heading_w7ynEn": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h2>Results</h2>",
+            "heading_custom": false,
+            "heading_font": "josefin_sans_n4",
+            "heading_size": 28,
+            "heading_size_mobile": 18,
+            "heading_height": 130,
+            "heading_mt": 0,
+            "heading_mt_mobile": 0,
+            "heading_align": "left",
+            "heading_align_mobile": "left",
+            "heading_color": "#000000"
+          }
+        },
+        "text_WXHgdb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Talk about results of your customers and how your product improved their life.</p>",
+            "text_custom": false,
+            "text_font": "josefin_sans_n4",
+            "text_size": 16,
+            "text_size_mobile": 15,
+            "text_height": 150,
+            "text_mt": 24,
+            "text_mt_mobile": 24,
+            "text_color": "#000000"
+          }
+        },
+        "item_4hze3W": {
+          "type": "item",
+          "settings": {
+            "percent": 90,
+            "text": "Noticed that this product has significantly improved their life."
+          }
+        },
+        "item_YtjTbU": {
+          "type": "item",
+          "settings": {
+            "percent": 90,
+            "text": "Noticed that this product has significantly improved their life."
+          }
+        },
+        "item_669wGL": {
+          "type": "item",
+          "settings": {
+            "percent": 90,
+            "text": "Noticed that this product has significantly improved their life."
+          }
+        }
+      },
+      "block_order": [
+        "heading_w7ynEn",
+        "text_WXHgdb",
+        "item_4hze3W",
+        "item_YtjTbU",
+        "item_669wGL"
+      ],
+      "name": "SS - Feature #17",
+      "settings": {
+        "body_gap": 64,
+        "body_gap_mobile": 32,
+        "content_horizontal_align": "center",
+        "content_horizontal_align_mobile": "center",
+        "heading": "<h2><strong>30日後の</strong><em><strong>結果</strong></em></h2>",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 36,
+        "heading_size_mobile": 28,
+        "heading_height": 130,
+        "items_mt": 16,
+        "items_mt_mobile": 16,
+        "item_padding_vertical": 10,
+        "item_padding_vertical_mobile": 10,
+        "item_gap": 16,
+        "item_gap_mobile": 16,
+        "item_border_thickness": 2,
+        "circle_size": 70,
+        "circle_size_mobile": 70,
+        "percent_custom": false,
+        "percent_font": "josefin_sans_n4",
+        "percent_size": 18,
+        "percent_size_mobile": 18,
+        "percent_height": 130,
+        "item_text_custom": false,
+        "item_text_font": "josefin_sans_n4",
+        "item_text_size": 16,
+        "item_text_size_mobile": 16,
+        "item_text_height": 150,
+        "bottom_text": "<p>Caption about the results and/or link for their proof.</p>",
+        "bottom_text_custom": false,
+        "bottom_text_font": "josefin_sans_n4",
+        "bottom_text_size": 12,
+        "bottom_text_size_mobile": 12,
+        "bottom_text_height": 130,
+        "bottom_text_mt": 16,
+        "bottom_text_mt_mobile": 16,
+        "bottom_text_align": "left",
+        "bottom_text_align_mobile": "left",
+        "item_border_color": "#F3F3F3",
+        "circle_bg_color": "#FFFFFF",
+        "circle_progress": "#0F8571",
+        "percent_color": "#0F8571",
+        "item_text_color": "#000000",
+        "heading_color": "#000000",
+        "bottom_text_color": "#000000",
+        "background_color": "#FFFFFF",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": false,
+        "content_width": 120,
+        "border_thickness": 0,
+        "section_radius": 0,
+        "lazy": true
+      }
     }
   },
   "order": [
@@ -369,6 +497,7 @@
     "custom_liquid_9ibKcN",
     "rich_text_YbVydK",
     "multi_column_Cpm6LR",
-    "ss_scrolling_logo_cloud_Lp6Tqc"
+    "ss_scrolling_logo_cloud_Lp6Tqc",
+    "ss_feature_17_tLmbPE"
   ]
 }
