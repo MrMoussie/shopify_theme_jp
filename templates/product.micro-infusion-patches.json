@@ -189,31 +189,26 @@
         "input_text_color": ""
       }
     },
-    "related-products": {
-      "type": "related-products",
+    "custom_liquid_9ibKcN": {
+      "type": "custom-liquid",
+      "custom_css": [
+        ".trustpilot-container {display: flex; align-items: center; justify-content: center; margin-bottom: 10px;}",
+        ".trustpilot-text {font-size: 18px; /* Grotere lettergrootte */ margin-left: 5px;}"
+      ],
+      "name": "Custom Liquid",
       "settings": {
-        "recommendations_count": 6,
-        "products": [],
         "full_width": true,
-        "stack_products": true,
-        "show_progress_bar": false,
-        "products_per_row_mobile": "1",
-        "products_per_row_desktop": 3,
-        "subheading": "",
-        "title": "あなたにおすすめ",
-        "content": "",
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div style=\"text-align: center;\">\n  <div class=\"trustpilot-container\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0916/0851/4905/files/trustpilot.avif?v=1737071184\" alt=\"Trustpilot Ratings\" style=\"height: 35px; margin-right: 10px;\">\n    <span class=\"trustpilot-text\">優れた</span>\n  </div>\n</div>",
         "background": "",
         "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
+        "text_color": ""
       }
     }
   },
   "order": [
     "main",
-    "related-products"
+    "custom_liquid_9ibKcN"
   ]
 }
