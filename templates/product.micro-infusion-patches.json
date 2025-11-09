@@ -195,7 +195,7 @@
         ".trustpilot-container {display: flex; align-items: center; justify-content: center; margin-bottom: 10px;}",
         ".trustpilot-text {font-size: 18px; /* Grotere lettergrootte */ margin-left: 5px;}"
       ],
-      "name": "Custom Liquid",
+      "name": "Trustpilot",
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": true,
@@ -222,7 +222,7 @@
       "block_order": [
         "heading_AWckCh"
       ],
-      "name": "Rich text",
+      "name": "Heading",
       "settings": {
         "full_width": true,
         "content_width": "small",
