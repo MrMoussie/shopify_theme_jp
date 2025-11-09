@@ -106,6 +106,28 @@
             "content": "<p>Share some content to your customers about your products.</p>",
             "page": "セラム成分"
           }
+        },
+        "collapsible_text_bptiyx": {
+          "type": "collapsible_text",
+          "name": "How to use",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "使い方",
+            "content": "<p>Share some content to your customers about your products.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_text_G63dCb": {
+          "type": "collapsible_text",
+          "name": "Ingredients",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "成分",
+            "content": "<p>Share some content to your customers about your products.</p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -121,7 +143,9 @@
         "buy_buttons",
         "liquid_tgwqXP",
         "image_afCh3J",
-        "collapsible_text_pzH7xc"
+        "collapsible_text_pzH7xc",
+        "collapsible_text_bptiyx",
+        "collapsible_text_G63dCb"
       ],
       "settings": {
         "full_width": true,
