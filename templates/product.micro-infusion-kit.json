@@ -74,12 +74,20 @@
             "max_width": 500
           }
         },
+        "liquid_RgqWPb": {
+          "type": "liquid",
+          "name": "Timer",
+          "settings": {
+            "liquid": ""
+          }
+        },
         "separator_96egRc": {
           "type": "separator",
           "settings": {}
         },
         "variant_picker_GH7yJ3": {
           "type": "variant_picker",
+          "disabled": true,
           "settings": {
             "hide_sold_out_variants": false,
             "stack_blocks": true,
@@ -91,6 +99,7 @@
         },
         "quantity_selector_Ya3eP4": {
           "type": "quantity_selector",
+          "disabled": true,
           "settings": {}
         },
         "buy_buttons": {
@@ -113,6 +122,7 @@
         "image_afCh3J": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/JA_badges_07024c03-6fcf-49a9-8e7d-732b3d471586.png",
             "alignment": "center",
             "max_width": 500
           }
@@ -128,6 +138,7 @@
         "liquid_jUQmJP",
         "custom_variants_picker_XX6DML",
         "image_8amWEW",
+        "liquid_RgqWPb",
         "separator_96egRc",
         "variant_picker_GH7yJ3",
         "quantity_selector_Ya3eP4",
