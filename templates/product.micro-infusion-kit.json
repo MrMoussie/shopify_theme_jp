@@ -250,41 +250,46 @@
         "video_rX7JLx": {
           "type": "video",
           "settings": {
+            "video": "shopify://files/videos/9f7f0f34ae9f4dc8a223aa9485b215a3.HD-1080p-4.8Mbps-44806185.mp4",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "modal_heading": "<h4>Modal Heading</h4>",
-            "modal_text": "<p>Modal Text</p>"
+            "modal_heading": "",
+            "modal_text": ""
           }
         },
         "video_ce4xPh": {
           "type": "video",
           "settings": {
+            "video": "shopify://files/videos/fc56e34147594b80bb58dfe0bd0c1d10.HD-1080p-7.2Mbps-44806188.mp4",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "modal_heading": "<h4>Modal Heading</h4>",
-            "modal_text": "<p>Modal Text</p>"
+            "modal_heading": "",
+            "modal_text": ""
           }
         },
         "video_YFB97d": {
           "type": "video",
           "settings": {
+            "video": "shopify://files/videos/4e3861e5374a4ea5a3e374a734cad64b.HD-1080p-4.8Mbps-44806197.mp4",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "modal_heading": "<h4>Modal Heading</h4>",
-            "modal_text": "<p>Modal Text</p>"
+            "modal_heading": "",
+            "modal_text": ""
           }
         },
         "video_RcrTkK": {
           "type": "video",
           "settings": {
+            "video": "shopify://files/videos/5c5012ca8d48487aa6d493d89b3c21bb.HD-1080p-4.8Mbps-44806192.mp4",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "modal_heading": "<h4>Modal Heading</h4>",
-            "modal_text": "<p>Modal Text</p>"
+            "modal_heading": "",
+            "modal_text": ""
           }
         },
         "video_KeEDVw": {
           "type": "video",
           "settings": {
+            "video": "shopify://files/videos/0be1e082dfe44912a3450e96515fef00.HD-1080p-7.2Mbps-44806200.mp4",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "modal_heading": "<h4>Modal Heading</h4>",
-            "modal_text": "<p>Modal Text</p>"
+            "modal_heading": "",
+            "modal_text": ""
           }
         }
       },
