@@ -61,6 +61,10 @@
             "liquid": "<style>\n  .blink {\n    animation: blink-animation 1.5s steps(5, start) infinite;\n    color: #F55353;\n    display: inline-block; /* Display as inline-block */\n    vertical-align: middle; /* Align vertically to middle */\n    font-size: 10px; /* Set font size */\n  }\n\n  @keyframes blink-animation {\n    to {\n      visibility: hidden;\n    }\n  }\n\n  .red-div {\n    background-color: #ffcccc;\n    padding: 2px 10px; /* 6px vertical, 10px horizontal */\n    border-radius: 8px; /* Rounded corners */\n    display: inline-block; /* Display as inline-block */\n    text-align: center; /* Center align the content */\n    margin: 0 auto; /* Horizontally center the red-div */\n  }\n\n  .text {\n    display: inline-block; /* Display as inline-block */\n    vertical-align: middle; /* Align vertically to middle */\n    margin-left: 10px; /* Add some space between the dot and the text */\n    color: #F55353; /* Text color */\n    font-weight: 500; /* Medium font weight */\n    font-size: 12px; /* Set font size */\n    text-align: justify; /* Justify the text to the center */\n  }\n</style>\n\n<div class=\"red-div\">\n  <div class=\"blink\">&#9679;</div>\n  <div class=\"text\"> 残りのキットは5つだけです。</div>\n</div>"
           }
         },
+        "custom_variants_picker_XX6DML": {
+          "type": "custom_variants_picker",
+          "settings": {}
+        },
         "separator_96egRc": {
           "type": "separator",
           "settings": {}
@@ -113,6 +117,7 @@
         "description",
         "liquid_gLNhB9",
         "liquid_jUQmJP",
+        "custom_variants_picker_XX6DML",
         "separator_96egRc",
         "variant_picker_GH7yJ3",
         "quantity_selector_Ya3eP4",
