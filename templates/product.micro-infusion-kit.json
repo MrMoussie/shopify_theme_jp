@@ -12,8 +12,16 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "liquid_TmmYUq": {
+          "type": "liquid",
+          "name": "Award",
+          "settings": {
+            "liquid": "<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <style>\n        .label-pill {\n            background: linear-gradient(90deg, #afe0da, #e1f0ee);\n            color: #1a1a1a;\n            text-align: center;\n            padding: 5px 10px;\n            border-radius: 50px;\n            font-size: 14px;\n            font-weight: bold;\n            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);\n            margin-bottom: 15px;\n        }\n​\n        @media (max-width: 589px) {\n            .label-pill {\n                background: linear-gradient(90deg, #FFD36D, #FFE5AA);\n                color: #000;\n                text-align: center;\n                padding: 3px 6px;\n                border-radius: 50px;\n                font-size: 12px;\n                font-weight: bold;\n                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);\n                margin-bottom: 15px;\n            }\n        }\n    </style>\n</head>\n<body>\n    <div class=\"label-pill\">2025年の#1アンチリンクル製品に選ばれました 🇯🇵</div>\n</body>\n</html>"
+          }
+        },
         "liquid_UYCm9j": {
           "type": "liquid",
+          "name": "Trustpilot reviews",
           "settings": {
             "liquid": "<div style=\"display: flex; align-items: center;\">\n        <span style=\"font-size: 15px; font-weight: bold; color: #000;\">4.8</span>\n        <img src=\"https://cdn.shopify.com/s/files/1/0647/2148/6072/files/trustpilot_5_stars.svg?v=1721578152\" alt=\"Trustpilot 5 stars\" style=\"margin: 0 8px; width: 80px; height: auto;\">\n        <span style=\"font-size: 15px; color: #555;\">1,200件以上のレビュー</span>\n    </div>"
           }
@@ -77,13 +85,13 @@
         "image_afCh3J": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/JA_badges.svg",
             "alignment": "center",
             "max_width": 500
           }
         }
       },
       "block_order": [
+        "liquid_TmmYUq",
         "liquid_UYCm9j",
         "title",
         "price",
