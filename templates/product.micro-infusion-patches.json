@@ -489,10 +489,17 @@
             "text_color": "",
             "gradient": ""
           }
+        },
+        "richtext_48mq9k": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>皮膚科医は最適な結果のために、<span style=\"text-decoration:underline\"><strong>毎週1回の治療</strong></span>を推奨しています。</p>"
+          }
         }
       },
       "block_order": [
-        "heading_4ReXqd"
+        "heading_4ReXqd",
+        "richtext_48mq9k"
       ],
       "custom_css": [
         "div {padding-top: 0px; padding-bottom: 0px !important;}"
