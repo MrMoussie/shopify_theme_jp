@@ -137,7 +137,7 @@
             "icon_width": 20,
             "title": "90日間返金保証",
             "content": "<p>Share some content to your customers about your products.</p>",
-            "page": ""
+            "page": "guarantee"
           }
         },
         "collapsible_text_b8LYjp": {
@@ -148,7 +148,7 @@
             "icon_width": 20,
             "title": "24時間年中無休のカスタマーサービス",
             "content": "<p>Share some content to your customers about your products.</p>",
-            "page": ""
+            "page": "customer-service"
           }
         }
       },
