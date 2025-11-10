@@ -133,6 +133,17 @@
           "settings": {
             "liquid": "<div id='ss-product-videos'></div>"
           }
+        },
+        "collapsible_text_PGFVny": {
+          "type": "collapsible_text",
+          "name": "How it works",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "マイクロインフュージョンはどのように機能しますか？",
+            "content": "<p>Share some content to your customers about your products.</p>",
+            "page": "how-does-micro-infusion-work"
+          }
         }
       },
       "block_order": [
@@ -152,7 +163,8 @@
         "buy_buttons",
         "liquid_tgwqXP",
         "image_afCh3J",
-        "liquid_34iQDU"
+        "liquid_34iQDU",
+        "collapsible_text_PGFVny"
       ],
       "settings": {
         "full_width": true,
