@@ -572,7 +572,7 @@
       "block_order": [
         "heading_jWTPFa"
       ],
-      "name": "Rich text",
+      "name": "Heading",
       "settings": {
         "full_width": true,
         "content_width": "small",
@@ -580,6 +580,76 @@
         "background": "",
         "background_gradient": "",
         "text_color": ""
+      }
+    },
+    "image_with_text_overlay_w3nC3f": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/ChatGPT_Image_Jun_8_2025_at_12_24_51_PM_5fff323f-3a30-4fb4-acfc-74a2fb16e487.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "faq_6MUncg": {
+      "type": "faq",
+      "blocks": {
+        "item_8gaiKw": {
+          "type": "item",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+          }
+        },
+        "item_L3JPdn": {
+          "type": "item",
+          "settings": {
+            "title": "How long will it take to get my orders?",
+            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+          }
+        },
+        "item_BVVaVT": {
+          "type": "item",
+          "settings": {
+            "title": "Any question?",
+            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_8gaiKw",
+        "item_L3JPdn",
+        "item_BVVaVT"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "よくある質問",
+        "content": "",
+        "team_avatar": "shopify://shop_images/CS_PNG.png",
+        "team_avatar_width": 350,
+        "support_hours": "当社のカスタマーサービスチームは24時間年中無休で対応しています。",
+        "answer_time": "平均回答時間：24時間",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
       }
     }
   },
@@ -592,6 +662,8 @@
     "ss_feature_17_tLmbPE",
     "rich_text_VmHK4x",
     "how_to_use_Qak6cN",
-    "rich_text_9WYXrz"
+    "rich_text_9WYXrz",
+    "image_with_text_overlay_w3nC3f",
+    "faq_6MUncg"
   ]
 }
