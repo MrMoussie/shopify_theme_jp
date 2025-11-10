@@ -429,11 +429,41 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "rich_text_reYVqj": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_QiRPYe": {
+          "type": "heading",
+          "settings": {
+            "text": "本物の女性 - 本物の変身",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_QiRPYe"
+      ],
+      "custom_css": [
+        "div {padding-top: 0px;}"
+      ],
+      "name": "Testimonial heading",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
     "main",
     "customer_videos_J4yjXr",
-    "custom_liquid_px4kfV"
+    "custom_liquid_px4kfV",
+    "rich_text_reYVqj"
   ]
 }
