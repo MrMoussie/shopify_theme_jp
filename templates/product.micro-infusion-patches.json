@@ -516,6 +516,40 @@
     },
     "how_to_use_Qak6cN": {
       "type": "how-to-use",
+      "blocks": {
+        "step_z3gXb4": {
+          "type": "step",
+          "settings": {
+            "title": "Step Title Here",
+            "description": "Description of this step goes here.",
+            "alignment": "left"
+          }
+        },
+        "step_LwGtAc": {
+          "type": "step",
+          "settings": {
+            "title": "Step Title Here",
+            "description": "Description of this step goes here.",
+            "alignment": "left"
+          }
+        },
+        "step_UhnUNh": {
+          "type": "step",
+          "settings": {
+            "title": "Step Title Here",
+            "description": "Description of this step goes here.",
+            "alignment": "left"
+          }
+        }
+      },
+      "block_order": [
+        "step_z3gXb4",
+        "step_LwGtAc",
+        "step_UhnUNh"
+      ],
+      "custom_css": [
+        ".how-to-use {padding-bottom: 0px !important;}"
+      ],
       "name": "How to Use",
       "settings": {}
     }
