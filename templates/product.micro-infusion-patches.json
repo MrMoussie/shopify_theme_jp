@@ -504,7 +504,7 @@
       "custom_css": [
         "div {padding-top: 0px; padding-bottom: 0px !important;}"
       ],
-      "name": "Rich text",
+      "name": "How to use text",
       "settings": {
         "full_width": true,
         "content_width": "small",
@@ -513,6 +513,11 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "how_to_use_Qak6cN": {
+      "type": "how-to-use",
+      "name": "How to Use",
+      "settings": {}
     }
   },
   "order": [
@@ -522,6 +527,7 @@
     "multi_column_Cpm6LR",
     "ss_scrolling_logo_cloud_Lp6Tqc",
     "ss_feature_17_tLmbPE",
-    "rich_text_VmHK4x"
+    "rich_text_VmHK4x",
+    "how_to_use_Qak6cN"
   ]
 }
