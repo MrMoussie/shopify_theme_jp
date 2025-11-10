@@ -664,6 +664,14 @@
             "title": "これらのパッチを他のスキンケア製品と一緒に使えますか？",
             "content": "<p>はい！他の製品を使う前に、清潔で乾いた肌にパッチを適用してください。取り外した後は、通常のスキンケアルーティンを続けてください。</p>"
           }
+        },
+        "item_ChaCpr": {
+          "type": "item",
+          "name": "9",
+          "settings": {
+            "title": "パッチは敏感肌に安全ですか？",
+            "content": "<p>はい、当社のパッチは皮膚科医によるテスト済みで、敏感肌を含むすべての肌タイプに適しています。成分は刺激性がありません。</p>"
+          }
         }
       },
       "block_order": [
@@ -674,7 +682,8 @@
         "item_bWmh6Y",
         "item_tafGbE",
         "item_3YPfVK",
-        "item_eqAEtg"
+        "item_eqAEtg",
+        "item_ChaCpr"
       ],
       "name": "FAQ",
       "settings": {
