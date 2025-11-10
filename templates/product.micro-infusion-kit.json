@@ -180,12 +180,24 @@
         },
         "collapsible_text_Q4Y7wL": {
           "type": "collapsible_text",
+          "name": "Guarantee",
           "settings": {
             "icon": "none",
             "icon_width": 20,
             "title": "90日間返金保証",
             "content": "<p>Share some content to your customers about your products.</p>",
             "page": "guarantee"
+          }
+        },
+        "collapsible_text_ncryTW": {
+          "type": "collapsible_text",
+          "name": "Customer Service",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "24時間年中無休のカスタマーサービス",
+            "content": "<p>Share some content to your customers about your products.</p>",
+            "page": "customer-service"
           }
         }
       },
@@ -211,7 +223,8 @@
         "collapsible_text_E7aE6M",
         "collapsible_text_JLBFy7",
         "collapsible_text_68zgtX",
-        "collapsible_text_Q4Y7wL"
+        "collapsible_text_Q4Y7wL",
+        "collapsible_text_ncryTW"
       ],
       "settings": {
         "full_width": true,
@@ -230,32 +243,9 @@
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
       }
-    },
-    "related-products": {
-      "type": "related-products",
-      "settings": {
-        "recommendations_count": 6,
-        "products": [],
-        "full_width": true,
-        "stack_products": true,
-        "show_progress_bar": false,
-        "products_per_row_mobile": "1",
-        "products_per_row_desktop": 3,
-        "subheading": "",
-        "title": "あなたにおすすめ",
-        "content": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
-      }
     }
   },
   "order": [
-    "main",
-    "related-products"
+    "main"
   ]
 }
