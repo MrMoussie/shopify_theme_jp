@@ -640,6 +640,14 @@
             "title": "パッチは再利用可能ですか？",
             "content": "<p>各パッチのペアは一度だけ使用できます。</p>"
           }
+        },
+        "item_tafGbE": {
+          "type": "item",
+          "name": "6",
+          "settings": {
+            "title": "パッチはどのくらいの時間貼っておくべきですか？",
+            "content": "<p>4〜6時間または一晩中着用してください。マイクロダーツは完全に溶けて成分を効果的に放出するために時間が必要です。</p>"
+          }
         }
       },
       "block_order": [
@@ -647,7 +655,8 @@
         "item_L3JPdn",
         "item_BVVaVT",
         "item_jRqXig",
-        "item_bWmh6Y"
+        "item_bWmh6Y",
+        "item_tafGbE"
       ],
       "name": "FAQ",
       "settings": {
