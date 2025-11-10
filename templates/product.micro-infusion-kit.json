@@ -470,7 +470,7 @@
             "column_size": "3",
             "title": "ニナ",
             "heading_tag": "h2",
-            "content": "",
+            "content": "<p>「セレスティアを使った後、私のシミがかなり薄くなりました。肌の色がずっと均一になり、とても自信が持てるようになりました！」</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -592,6 +592,7 @@
         "item_c9yrmW",
         "item_4tRFPg"
       ],
+      "name": "Testimonials",
       "settings": {
         "full_width": true,
         "stack_on_mobile": false,
