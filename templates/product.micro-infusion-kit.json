@@ -65,6 +65,15 @@
           "type": "custom_variants_picker",
           "settings": {}
         },
+        "image_8amWEW": {
+          "type": "image",
+          "name": "Free gift",
+          "settings": {
+            "image": "shopify://shop_images/JA_JP_FIN.png",
+            "alignment": "start",
+            "max_width": 150
+          }
+        },
         "separator_96egRc": {
           "type": "separator",
           "settings": {}
@@ -118,6 +127,7 @@
         "liquid_gLNhB9",
         "liquid_jUQmJP",
         "custom_variants_picker_XX6DML",
+        "image_8amWEW",
         "separator_96egRc",
         "variant_picker_GH7yJ3",
         "quantity_selector_Ya3eP4",
