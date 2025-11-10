@@ -155,6 +155,17 @@
             "content": "<p>Share some content to your customers about your products.</p>",
             "page": "セラム成分"
           }
+        },
+        "collapsible_text_JLBFy7": {
+          "type": "collapsible_text",
+          "name": "What is included",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "キットに含まれているものは何ですか？",
+            "content": "<p>Share some content to your customers about your products.</p>",
+            "page": "what-is-in-the-box"
+          }
         }
       },
       "block_order": [
@@ -176,7 +187,8 @@
         "image_afCh3J",
         "liquid_34iQDU",
         "collapsible_text_PGFVny",
-        "collapsible_text_E7aE6M"
+        "collapsible_text_E7aE6M",
+        "collapsible_text_JLBFy7"
       ],
       "settings": {
         "full_width": true,
