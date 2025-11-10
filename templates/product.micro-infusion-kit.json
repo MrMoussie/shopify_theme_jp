@@ -458,12 +458,159 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "multi_column_XbDgJt": {
+      "type": "multi-column",
+      "blocks": {
+        "item_xhFUjc": {
+          "type": "item",
+          "name": "Nina",
+          "settings": {
+            "image": "shopify://shop_images/Nina_Japanese.jpg",
+            "column_size": "3",
+            "title": "ニナ",
+            "heading_tag": "h2",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_Lgipar": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Margaret_Japanese.jpg",
+            "column_size": "3",
+            "title": "マーガレット",
+            "heading_tag": "h2",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_zzJaPD": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Sophie_Japanese.jpg",
+            "column_size": "3",
+            "title": "ソフィー",
+            "heading_tag": "h2",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_CqefCj": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Marieke_Marie_Japanese.jpg",
+            "column_size": "3",
+            "title": "マリー",
+            "heading_tag": "h2",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_t3bkLw": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Eva_Japanese.jpg",
+            "column_size": "3",
+            "title": "エヴァ",
+            "heading_tag": "h2",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_6tBpYh": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Marie_Marion_Japanese.jpg",
+            "column_size": "3",
+            "title": "ダイアン",
+            "heading_tag": "h2",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_BQGc7X": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Shirley_Japanese.jpg",
+            "column_size": "3",
+            "title": "シャーリー",
+            "heading_tag": "h2",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_c9yrmW": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Linda_Japanese.jpg",
+            "column_size": "3",
+            "title": "リンダ",
+            "heading_tag": "h2",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_4tRFPg": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Esther_Japanese.jpg",
+            "column_size": "3",
+            "title": "エスター",
+            "heading_tag": "h2",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_xhFUjc",
+        "item_Lgipar",
+        "item_zzJaPD",
+        "item_CqefCj",
+        "item_t3bkLw",
+        "item_6tBpYh",
+        "item_BQGc7X",
+        "item_c9yrmW",
+        "item_4tRFPg"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
     "main",
     "customer_videos_J4yjXr",
     "custom_liquid_px4kfV",
-    "rich_text_reYVqj"
+    "rich_text_reYVqj",
+    "multi_column_XbDgJt"
   ]
 }
