@@ -126,6 +126,13 @@
             "alignment": "center",
             "max_width": 500
           }
+        },
+        "liquid_34iQDU": {
+          "type": "liquid",
+          "name": "Testimonial videos",
+          "settings": {
+            "liquid": "<div id='ss-product-videos'></div>"
+          }
         }
       },
       "block_order": [
@@ -144,7 +151,8 @@
         "quantity_selector_Ya3eP4",
         "buy_buttons",
         "liquid_tgwqXP",
-        "image_afCh3J"
+        "image_afCh3J",
+        "liquid_34iQDU"
       ],
       "settings": {
         "full_width": true,
