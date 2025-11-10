@@ -144,6 +144,17 @@
             "content": "<p>Share some content to your customers about your products.</p>",
             "page": "how-does-micro-infusion-work"
           }
+        },
+        "collapsible_text_E7aE6M": {
+          "type": "collapsible_text",
+          "name": "Ingredients",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "セラム成分",
+            "content": "<p>Share some content to your customers about your products.</p>",
+            "page": "セラム成分"
+          }
         }
       },
       "block_order": [
@@ -164,7 +175,8 @@
         "liquid_tgwqXP",
         "image_afCh3J",
         "liquid_34iQDU",
-        "collapsible_text_PGFVny"
+        "collapsible_text_PGFVny",
+        "collapsible_text_E7aE6M"
       ],
       "settings": {
         "full_width": true,
