@@ -632,13 +632,22 @@
             "title": "それらは特に目の周りだけで使用するように設計されていますか？",
             "content": "<p>私たちのマイクロ・インフュージョン・パッチは、さまざまな問題領域に効果的にアプローチできる優れた製品です。目の下、カラスの足跡、笑いジワ、しかめジワなど、幅広く使用されています。</p>"
           }
+        },
+        "item_bWmh6Y": {
+          "type": "item",
+          "name": "5",
+          "settings": {
+            "title": "パッチは再利用可能ですか？",
+            "content": "<p>各パッチのペアは一度だけ使用できます。</p>"
+          }
         }
       },
       "block_order": [
         "item_8gaiKw",
         "item_L3JPdn",
         "item_BVVaVT",
-        "item_jRqXig"
+        "item_jRqXig",
+        "item_bWmh6Y"
       ],
       "name": "FAQ",
       "settings": {
