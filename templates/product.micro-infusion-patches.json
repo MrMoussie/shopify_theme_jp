@@ -555,6 +555,32 @@
       ],
       "name": "How to Use",
       "settings": {}
+    },
+    "rich_text_9WYXrz": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_jWTPFa": {
+          "type": "heading",
+          "settings": {
+            "text": "臨床的に証明された成分",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_jWTPFa"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
@@ -565,6 +591,7 @@
     "ss_scrolling_logo_cloud_Lp6Tqc",
     "ss_feature_17_tLmbPE",
     "rich_text_VmHK4x",
-    "how_to_use_Qak6cN"
+    "how_to_use_Qak6cN",
+    "rich_text_9WYXrz"
   ]
 }
