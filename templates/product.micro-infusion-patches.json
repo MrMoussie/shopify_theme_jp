@@ -520,24 +520,24 @@
         "step_z3gXb4": {
           "type": "step",
           "settings": {
-            "title": "Step Title Here",
-            "description": "Description of this step goes here.",
+            "title": "",
+            "description": "顔を洗って乾かします。パッチを貼り、中心から外側に向かって押さえます。",
             "alignment": "left"
           }
         },
         "step_LwGtAc": {
           "type": "step",
           "settings": {
-            "title": "Step Title Here",
-            "description": "Description of this step goes here.",
+            "title": "",
+            "description": "触れずに、一晩中吸収させてください。",
             "alignment": "left"
           }
         },
         "step_UhnUNh": {
           "type": "step",
           "settings": {
-            "title": "Step Title Here",
-            "description": "Description of this step goes here.",
+            "title": "",
+            "description": "パッチを優しく取り外し、残っているセラムをマッサージしてなじませてください。",
             "alignment": "left"
           }
         }
