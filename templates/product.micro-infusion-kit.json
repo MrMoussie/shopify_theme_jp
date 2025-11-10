@@ -177,6 +177,16 @@
             "content": "<p>Share some content to your customers about your products.</p>",
             "page": "痛みはなく安全ですか"
           }
+        },
+        "collapsible_text_Q4Y7wL": {
+          "type": "collapsible_text",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "90日間返金保証",
+            "content": "<p>Share some content to your customers about your products.</p>",
+            "page": "guarantee"
+          }
         }
       },
       "block_order": [
@@ -200,7 +210,8 @@
         "collapsible_text_PGFVny",
         "collapsible_text_E7aE6M",
         "collapsible_text_JLBFy7",
-        "collapsible_text_68zgtX"
+        "collapsible_text_68zgtX",
+        "collapsible_text_Q4Y7wL"
       ],
       "settings": {
         "full_width": true,
