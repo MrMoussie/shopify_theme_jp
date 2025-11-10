@@ -166,6 +166,17 @@
             "content": "<p>Share some content to your customers about your products.</p>",
             "page": "what-is-in-the-box"
           }
+        },
+        "collapsible_text_68zgtX": {
+          "type": "collapsible_text",
+          "name": "Painless and safe",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "痛みはなく安全ですか？",
+            "content": "<p>Share some content to your customers about your products.</p>",
+            "page": "痛みはなく安全ですか"
+          }
         }
       },
       "block_order": [
@@ -188,7 +199,8 @@
         "liquid_34iQDU",
         "collapsible_text_PGFVny",
         "collapsible_text_E7aE6M",
-        "collapsible_text_JLBFy7"
+        "collapsible_text_JLBFy7",
+        "collapsible_text_68zgtX"
       ],
       "settings": {
         "full_width": true,
