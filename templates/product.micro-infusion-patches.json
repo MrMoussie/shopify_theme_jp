@@ -603,6 +603,7 @@
       "blocks": {
         "item_8gaiKw": {
           "type": "item",
+          "name": "1",
           "settings": {
             "title": "配達時間はどのくらいですか？",
             "content": "<p>製品の需要が高いため、配送時間は以下の通りです：<br/><br/>•<strong>処理時間：</strong>1〜3営業日<br/><br/>•<strong>配送時間：</strong>6〜14営業日</p>"
@@ -610,6 +611,7 @@
         },
         "item_L3JPdn": {
           "type": "item",
+          "name": "2",
           "settings": {
             "title": "マイクロインフュージョンパッチはどのくらいの頻度で使用すべきですか？",
             "content": "<p>最適な結果を得るために週に一度使用してください。お肌の状態や反応に応じて使用頻度を増やすことができます。<br/><br/>マイクロインフュージョントリートメントも行う場合は、パッチを貼る前に2〜3日間空けてください。</p>"
@@ -617,9 +619,10 @@
         },
         "item_BVVaVT": {
           "type": "item",
+          "name": "3",
           "settings": {
-            "title": "Any question?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+            "title": "男性にも効果がありますか？",
+            "content": "<p>絶対に！<br/><br/>マイクロインフュージョンパッチはすべての肌タイプに対応しており、男女問わず同様に効果を発揮します。</p><p>しわ、細かい線、シミ、肌の凹凸などの一般的な肌トラブルに効果的にアプローチし、性別に関係なく改善します。男性も女性と同じように再生と肌の改善の恩恵を享受できます。</p>"
           }
         }
       },
