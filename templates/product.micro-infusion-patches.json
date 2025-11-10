@@ -443,7 +443,7 @@
         "item_text_size": 16,
         "item_text_size_mobile": 16,
         "item_text_height": 150,
-        "bottom_text": "<p>Caption about the results and/or link for their proof.</p>",
+        "bottom_text": "<p><em>独立した消費者調査に基づいています。個々の結果は異なる場合があります。</em></p>",
         "bottom_text_custom": false,
         "bottom_text_font": "josefin_sans_n4",
         "bottom_text_size": 12,
