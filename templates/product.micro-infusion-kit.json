@@ -946,7 +946,7 @@
     },
     "image_with_text_overlay_XWMhpU": {
       "type": "image-with-text-overlay",
-      "name": "Image with text overlay",
+      "name": "Benefits image",
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
@@ -1043,6 +1043,23 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "image_with_text_overlay_QMny4R": {
+      "type": "image-with-text-overlay",
+      "name": "Ingredients image",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/benefits.svg",
+        "mobile_image": "shopify://shop_images/benefits.svg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
     }
   },
   "order": [
@@ -1059,6 +1076,7 @@
     "image_with_text_overlay_XWMhpU",
     "rich_text_4GqMBc",
     "17628470156ad20906",
-    "rich_text_7xqNzc"
+    "rich_text_7xqNzc",
+    "image_with_text_overlay_QMny4R"
   ]
 }
