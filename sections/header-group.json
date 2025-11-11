@@ -117,6 +117,19 @@
         "text_color": "#ffffff"
       }
     },
+    "custom_liquid_iYnxPp": {
+      "type": "custom-liquid",
+      "name": "Essential Countdown Banner",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "liquid": "<div class=\"countdown-timer-block\" countdown-timer-id=\"cmhv3vis7008gwe8nnetzr2sg\"></div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "header": {
       "type": "header",
       "settings": {
@@ -148,6 +161,7 @@
     "ss_countdown_bar_7KtT36",
     "custom_liquid_BT4zyq",
     "announcement-bar",
+    "custom_liquid_iYnxPp",
     "header"
   ]
 }
