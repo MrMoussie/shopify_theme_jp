@@ -1068,10 +1068,10 @@
           "settings": {
             "only_photos": false,
             "aggregated": false,
-            "limit": 20,
+            "limit": 5,
             "hide_thumbnails": false,
             "maxwidth": 1080,
-            "is_sample": false
+            "is_sample": true
           }
         }
       },
