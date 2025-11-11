@@ -674,6 +674,121 @@
         "border_thickness": 0,
         "lazy": true
       }
+    },
+    "ss_feature_17_QG9WBE": {
+      "type": "ss-feature-17",
+      "blocks": {
+        "media_YTaX4F": {
+          "type": "media",
+          "settings": {
+            "media_type": "image",
+            "image": "shopify://shop_images/ChatGPT_Image_Jun_8_2025_at_11_46_54_AM.png",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "use_controls": false,
+            "media_width": 100,
+            "media_width_mobile": 100,
+            "media_mt": 24,
+            "media_mt_mobile": 24,
+            "media_radius": 10,
+            "media_border_thickness": 0,
+            "media_border_color": "#000000",
+            "media_ratio": "landscape",
+            "media_ratio_mobile": "landscape"
+          }
+        },
+        "item_MxqmAC": {
+          "type": "item",
+          "settings": {
+            "percent": 94,
+            "text": "明らかに柔らかく、滑らかな肌を報告しました。"
+          }
+        },
+        "item_XAKrwP": {
+          "type": "item",
+          "settings": {
+            "percent": 93,
+            "text": "目の周りの肌がより引き締まり、滑らかになったのを感じました。"
+          }
+        },
+        "item_jyVH4a": {
+          "type": "item",
+          "settings": {
+            "percent": 91,
+            "text": "4週間以内に水分補給が改善されました。"
+          }
+        }
+      },
+      "block_order": [
+        "media_YTaX4F",
+        "item_MxqmAC",
+        "item_XAKrwP",
+        "item_jyVH4a"
+      ],
+      "name": "Features",
+      "settings": {
+        "body_gap": 64,
+        "body_gap_mobile": 32,
+        "content_horizontal_align": "center",
+        "content_horizontal_align_mobile": "center",
+        "heading": "<p><strong>セレスティアのマイクロテクノロジーが肌を活性化する方法</strong></p>",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 36,
+        "heading_size_mobile": 28,
+        "heading_height": 130,
+        "items_mt": 16,
+        "items_mt_mobile": 16,
+        "item_padding_vertical": 10,
+        "item_padding_vertical_mobile": 10,
+        "item_gap": 16,
+        "item_gap_mobile": 16,
+        "item_border_thickness": 2,
+        "circle_size": 70,
+        "circle_size_mobile": 70,
+        "percent_custom": false,
+        "percent_font": "josefin_sans_n4",
+        "percent_size": 18,
+        "percent_size_mobile": 18,
+        "percent_height": 130,
+        "item_text_custom": false,
+        "item_text_font": "josefin_sans_n4",
+        "item_text_size": 16,
+        "item_text_size_mobile": 16,
+        "item_text_height": 150,
+        "bottom_text": "<p><em>独立した消費者調査に基づいています。個々の結果は異なる場合があります。</em></p>",
+        "bottom_text_custom": false,
+        "bottom_text_font": "josefin_sans_n4",
+        "bottom_text_size": 12,
+        "bottom_text_size_mobile": 12,
+        "bottom_text_height": 130,
+        "bottom_text_mt": 16,
+        "bottom_text_mt_mobile": 16,
+        "bottom_text_align": "left",
+        "bottom_text_align_mobile": "left",
+        "item_border_color": "#9c9c9c",
+        "circle_bg_color": "#f0f0f0",
+        "circle_progress": "#85c1b9",
+        "percent_color": "#85c1b9",
+        "item_text_color": "#1a1a1a",
+        "heading_color": "#1a1a1a",
+        "bottom_text_color": "#9c9c9c",
+        "background_color": "#f0f0f0",
+        "background_gradient": "",
+        "border_color": "#1a1a1a",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": false,
+        "content_width": 120,
+        "border_thickness": 0,
+        "section_radius": 0,
+        "lazy": true
+      }
     }
   },
   "order": [
@@ -682,6 +797,7 @@
     "custom_liquid_px4kfV",
     "rich_text_reYVqj",
     "multi_column_XbDgJt",
-    "ss_scrolling_logo_cloud_9Q9K34"
+    "ss_scrolling_logo_cloud_9Q9K34",
+    "ss_feature_17_QG9WBE"
   ]
 }
