@@ -682,7 +682,7 @@
           "type": "media",
           "settings": {
             "media_type": "image",
-            "image": "shopify://shop_images/ChatGPT_Image_Jun_8_2025_at_11_46_54_AM.png",
+            "image": "shopify://shop_images/usage_a46eb886-56f4-4862-84c8-64c84c883b45.gif",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "use_controls": false,
             "media_width": 100,
@@ -694,6 +694,20 @@
             "media_border_color": "#000000",
             "media_ratio": "landscape",
             "media_ratio_mobile": "landscape"
+          }
+        },
+        "text_rxpqkA": {
+          "type": "text",
+          "settings": {
+            "text": "<p>私たちのCelestiaホームトリートメントは、<strong>最適な美容液の吸収</strong>のためにマイクロテクノロジーを使用しています。これは従来のスキンケアよりも効果的で、完全に無痛です。<br/><br/><strong>その効果は？</strong>有効成分の最大浸透と目に見える肌の再生。まさにお肌が最も必要とする場所に届きます。</p>",
+            "text_custom": false,
+            "text_font": "josefin_sans_n4",
+            "text_size": 16,
+            "text_size_mobile": 15,
+            "text_height": 150,
+            "text_mt": 24,
+            "text_mt_mobile": 24,
+            "text_color": "#1a1a1a"
           }
         },
         "item_MxqmAC": {
@@ -720,6 +734,7 @@
       },
       "block_order": [
         "media_YTaX4F",
+        "text_rxpqkA",
         "item_MxqmAC",
         "item_XAKrwP",
         "item_jyVH4a"
