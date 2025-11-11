@@ -1174,8 +1174,8 @@
           "type": "item",
           "name": "11",
           "settings": {
-            "title": "Question",
-            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
+            "title": "この製品は深いしわの軽減に役立ちますか？",
+            "content": "<p>はい、マイクロインフュージョンキットは、コラーゲン生成を促進し、肌を深く保湿することで、<strong>深いしわ</strong>の外観を改善することができます。</p><p>ただし、<strong>非常に深いしわ</strong>の場合、結果が目に見えるようになるまでに通常は<strong>3～6か月</strong>の継続使用が必要であることに注意してください。</p><p><strong>忍耐と定期的な治療</strong>が、目に見える改善を達成するための鍵です。</p>"
           }
         },
         "item_g87wfP": {
