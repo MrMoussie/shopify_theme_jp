@@ -1169,6 +1169,70 @@
             "title": "この製品は毎月自動的に更新され、発送されますか？",
             "content": "<p>いいえ、マイクロインフュージョンキットは<strong>自動更新やサブスクリプションプログラムの一部ではありません</strong>。<br/><br/>各購入は<strong>一回限りの取引</strong>であり、製品はその特定の注文に基づいて発送されます。</p><p>将来的に追加のキットを受け取りたい場合は、<strong>その都度新しい注文をする必要があります</strong>。</p>"
           }
+        },
+        "item_cRJzRn": {
+          "type": "item",
+          "name": "11",
+          "settings": {
+            "title": "Question",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
+          }
+        },
+        "item_g87wfP": {
+          "type": "item",
+          "name": "12",
+          "settings": {
+            "title": "Question",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
+          }
+        },
+        "item_mePQWU": {
+          "type": "item",
+          "name": "13",
+          "settings": {
+            "title": "Question",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
+          }
+        },
+        "item_CRGrfA": {
+          "type": "item",
+          "name": "14",
+          "settings": {
+            "title": "Question",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
+          }
+        },
+        "item_kqTVej": {
+          "type": "item",
+          "name": "15",
+          "settings": {
+            "title": "Question",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
+          }
+        },
+        "item_YVAiez": {
+          "type": "item",
+          "name": "16",
+          "settings": {
+            "title": "Question",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
+          }
+        },
+        "item_rVnP8e": {
+          "type": "item",
+          "name": "17",
+          "settings": {
+            "title": "Question",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
+          }
+        },
+        "item_UHn9Rt": {
+          "type": "item",
+          "name": "18",
+          "settings": {
+            "title": "Question",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
+          }
         }
       },
       "block_order": [
@@ -1181,7 +1245,15 @@
         "item_yBhtKf",
         "item_8MzqxV",
         "item_N4XAyr",
-        "item_zj8dKJ"
+        "item_zj8dKJ",
+        "item_cRJzRn",
+        "item_g87wfP",
+        "item_mePQWU",
+        "item_CRGrfA",
+        "item_kqTVej",
+        "item_YVAiez",
+        "item_rVnP8e",
+        "item_UHn9Rt"
       ],
       "name": "FAQ",
       "settings": {
