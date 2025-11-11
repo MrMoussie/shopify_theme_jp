@@ -69,7 +69,7 @@
           "type": "image",
           "name": "Free gift",
           "settings": {
-            "image": "shopify://shop_images/JA_JP_FIN.png",
+            "image": "shopify://shop_images/2.png",
             "alignment": "start",
             "max_width": 500
           }
@@ -1206,32 +1206,32 @@
           "type": "item",
           "name": "15",
           "settings": {
-            "title": "すでに美容注射を受けたことがある場合でも、マイクロインフュージョンキットを使用できますか？",
-            "content": "<p>はい、すでに美容注射を受けていても、マイクロインフュージョンキットを使用できます。</p><p>ただし、注射後<strong>少なくとも2週間待つこと</strong>をお勧めします。<br/><br/>これは注入された製品が安定するのを促し、結果への干渉を避けるためです。</p>"
+            "title": "Question",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
           }
         },
         "item_YVAiez": {
           "type": "item",
           "name": "16",
           "settings": {
-            "title": "自分のセラムでキットを使えますか？",
-            "content": "<p><strong>付属のセラム以外のセラムとマイクロインフュージョンキットを併用しないことを推奨します</strong></p><p>付属のセラムは、マイクロニードリング技術と完全に調和するように<strong>特別に配合されており</strong>、<strong>最適な効果と安全性</strong>を保証します。</p>"
+            "title": "Question",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
           }
         },
         "item_rVnP8e": {
           "type": "item",
           "name": "17",
           "settings": {
-            "title": "マイクロインフュージョンキットは、赤色光療法およびRFレーザーと安全に併用できますか？",
-            "content": "<p>はい、マイクロインフュージョンキットは、<strong>赤色光療法</strong>や<strong>RF（高周波）レーザー療法</strong>などの治療と<strong>安全に組み合わせる</strong>ことができます。</p><p>ただし、これらの追加治療を行う前に、マイクロインフュージョンキット使用後は<strong>少なくとも2晩の回復期間</strong>を設けることが重要です。<br/><br/>これにより、お肌が再生する時間が確保され、すべての治療の<strong>効果を最大化</strong>します。</p>"
+            "title": "Question",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
           }
         },
         "item_UHn9Rt": {
           "type": "item",
           "name": "18",
           "settings": {
-            "title": "1回の施術でどのくらいの範囲をカバーできますか？顔と首に十分ですか？",
-            "content": "<p>はい、各トリートメントで<strong>顔と首の両方</strong>をカバーするのに十分なセラムが含まれています。</p><p>おそらく少しセラムが余るので、トリートメント後に顔や首に優しく塗って、<strong>保湿と吸収を最大化</strong>することができます。</p>"
+            "title": "Question",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
           }
         }
       },
