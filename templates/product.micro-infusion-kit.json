@@ -868,6 +868,50 @@
     },
     "how_to_use_iYVrP6": {
       "type": "how-to-use",
+      "blocks": {
+        "step_bzc9db": {
+          "type": "step",
+          "settings": {
+            "video": "shopify://files/videos/step 1(2).mp4",
+            "title": "",
+            "description": "ボトルを開けてセラムを注ぎます。次に、しっかりと閉めてください。",
+            "alignment": "left"
+          }
+        },
+        "step_aPKb3t": {
+          "type": "step",
+          "settings": {
+            "video": "shopify://files/videos/step 2(1).mp4",
+            "title": "",
+            "description": "針がセラムを吸収するように、ボトルを逆さまにして2分間置いてください。",
+            "alignment": "left"
+          }
+        },
+        "step_gKVYP3": {
+          "type": "step",
+          "settings": {
+            "video": "shopify://files/videos/step 3(2).mp4",
+            "title": "",
+            "description": "肌にやさしく50%重ねてたたくように塗布します。最良の結果を得るために2〜3回繰り返してください。",
+            "alignment": "left"
+          }
+        },
+        "step_KiLtxc": {
+          "type": "step",
+          "settings": {
+            "video": "shopify://files/videos/step 4.mp4",
+            "title": "",
+            "description": "余分なセラムを顔に塗り、夜通しそのままにしてください。",
+            "alignment": "left"
+          }
+        }
+      },
+      "block_order": [
+        "step_bzc9db",
+        "step_aPKb3t",
+        "step_gKVYP3",
+        "step_KiLtxc"
+      ],
       "custom_css": [
         ".how-to-use {padding-bottom: 0px !important;}"
       ],
