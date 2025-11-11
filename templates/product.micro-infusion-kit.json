@@ -980,7 +980,7 @@
       "custom_css": [
         "div {padding-bottom: 5px !important;}"
       ],
-      "name": "Rich text",
+      "name": "Comparison text",
       "settings": {
         "full_width": true,
         "content_width": "small",
