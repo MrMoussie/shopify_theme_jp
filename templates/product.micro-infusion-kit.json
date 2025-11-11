@@ -989,6 +989,31 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "17628470156ad20906": {
+      "type": "apps",
+      "blocks": {
+        "pretty_comparison_tables_table_KAwAch": {
+          "type": "shopify://apps/pretty-comparison-tables/blocks/table/4ce14980-e26b-4398-92cd-f582d95d4f05",
+          "settings": {
+            "product": "{{product}}",
+            "title_text": "",
+            "title_font_tag": "h2",
+            "section_background_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "pretty_comparison_tables_table_KAwAch"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
@@ -1003,6 +1028,7 @@
     "how_to_use_iYVrP6",
     "rich_text_UYUxPR",
     "image_with_text_overlay_XWMhpU",
-    "rich_text_4GqMBc"
+    "rich_text_4GqMBc",
+    "17628470156ad20906"
   ]
 }
