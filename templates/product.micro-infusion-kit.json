@@ -605,6 +605,75 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "ss_scrolling_logo_cloud_9Q9K34": {
+      "type": "ss-scrolling-logo-cloud",
+      "blocks": {
+        "slide_Ck7HHw": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/vogue.svg",
+            "link": ""
+          }
+        },
+        "slide_pfEViz": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Celestia_-_Social_Proof_cebcae84-9edb-4e68-a821-f6f5f2ccf5cd.svg",
+            "link": ""
+          }
+        },
+        "slide_dkQnEq": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/cosmopolitan.svg",
+            "link": ""
+          }
+        },
+        "slide_n6ptDz": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Women_s_Health_1feacb2f-1d26-4a5c-930e-1b32c0d93a08.svg",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_Ck7HHw",
+        "slide_pfEViz",
+        "slide_dkQnEq",
+        "slide_n6ptDz"
+      ],
+      "name": "Trust",
+      "settings": {
+        "ss-title": "",
+        "heading_custom": false,
+        "heading_font": "assistant_n4",
+        "header_size": 30,
+        "header_align": "center",
+        "scrolling_velocity": 20,
+        "pause_hover": true,
+        "shadow": false,
+        "sliders_mt": 0,
+        "logo_padding_top": 0,
+        "logo_padding_bottom": 0,
+        "slider_gap": 30,
+        "slider_gap_mobile": 30,
+        "slider_direction": "left",
+        "icon_width": 120,
+        "header_color": "#121212",
+        "border_color": "#ffffff",
+        "background-color": "#ecf5f5",
+        "slider-background-color": "#ecf5f5",
+        "margin_top": 0,
+        "margin_bottom": 32,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "full_width": true,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
+      }
     }
   },
   "order": [
@@ -612,6 +681,7 @@
     "customer_videos_J4yjXr",
     "custom_liquid_px4kfV",
     "rich_text_reYVqj",
-    "multi_column_XbDgJt"
+    "multi_column_XbDgJt",
+    "ss_scrolling_logo_cloud_9Q9K34"
   ]
 }
