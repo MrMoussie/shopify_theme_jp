@@ -829,6 +829,42 @@
         "section_radius": 0,
         "lazy": true
       }
+    },
+    "rich_text_YktWmq": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_pXNK77": {
+          "type": "heading",
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_iJYCMP": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_pXNK77",
+        "richtext_iJYCMP"
+      ],
+      "custom_css": [
+        "div {padding-top: 0px; padding-bottom: 0px !important;}"
+      ],
+      "name": "How to use Heading",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
@@ -838,6 +874,7 @@
     "rich_text_reYVqj",
     "multi_column_XbDgJt",
     "ss_scrolling_logo_cloud_9Q9K34",
-    "ss_feature_17_QG9WBE"
+    "ss_feature_17_QG9WBE",
+    "rich_text_YktWmq"
   ]
 }
