@@ -1034,7 +1034,7 @@
       "custom_css": [
         "div {padding-top: 5px; padding-bottom: 5px !important;}"
       ],
-      "name": "Rich text",
+      "name": "Ingredients text",
       "settings": {
         "full_width": true,
         "content_width": "small",
