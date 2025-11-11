@@ -1086,6 +1086,117 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "faq_wWH7rx": {
+      "type": "faq",
+      "blocks": {
+        "item_wygUyF": {
+          "type": "item",
+          "name": "1",
+          "settings": {
+            "title": "配達時間はどのくらいですか？",
+            "content": "<p>製品の需要が高いため、配送時間は以下の通りです：<br/><br/>•<strong>処理時間：</strong>1〜3営業日<br/><br/>•<strong>配送時間：</strong>6〜14営業日</p>"
+          }
+        },
+        "item_ehAiY9": {
+          "type": "item",
+          "name": "2",
+          "settings": {
+            "title": "マイクロインフュージョンパッチはどのくらいの頻度で使用すべきですか？",
+            "content": "<p>最適な結果を得るために週に一度使用してください。お肌の状態や反応に応じて使用頻度を増やすことができます。<br/><br/>マイクロインフュージョントリートメントも行う場合は、パッチを貼る前に2〜3日間空けてください。</p>"
+          }
+        },
+        "item_B69AiT": {
+          "type": "item",
+          "name": "3",
+          "settings": {
+            "title": "男性にも効果がありますか？",
+            "content": "<p>絶対に！<br/><br/>マイクロインフュージョンパッチはすべての肌タイプに対応しており、男女問わず同様に効果を発揮します。</p><p>しわ、細かい線、シミ、肌の凹凸などの一般的な肌トラブルに効果的にアプローチし、性別に関係なく改善します。男性も女性と同じように再生と肌の改善の恩恵を享受できます。</p>"
+          }
+        },
+        "item_7rGhAC": {
+          "type": "item",
+          "name": "4",
+          "settings": {
+            "title": "それらは特に目の周りだけで使用するように設計されていますか？",
+            "content": "<p>私たちのマイクロ・インフュージョン・パッチは、さまざまな問題領域に効果的にアプローチできる優れた製品です。目の下、カラスの足跡、笑いジワ、しかめジワなど、幅広く使用されています。</p>"
+          }
+        },
+        "item_jtdczi": {
+          "type": "item",
+          "name": "5",
+          "settings": {
+            "title": "パッチは再利用可能ですか？",
+            "content": "<p>各パッチのペアは一度だけ使用できます。</p>"
+          }
+        },
+        "item_4CpTcP": {
+          "type": "item",
+          "name": "6",
+          "settings": {
+            "title": "パッチはどのくらいの時間貼っておくべきですか？",
+            "content": "<p>4〜6時間または一晩中着用してください。マイクロダーツは完全に溶けて成分を効果的に放出するために時間が必要です。</p>"
+          }
+        },
+        "item_yBhtKf": {
+          "type": "item",
+          "name": "7",
+          "settings": {
+            "title": "マイクロダーツを感じますか？",
+            "content": "<p>最初はわずかなチクチク感を感じるかもしれませんが、これは正常であり、パッチが効果を発揮していることを示しています。お客様からは痛みや不快感はないと言われています。</p>"
+          }
+        },
+        "item_8MzqxV": {
+          "type": "item",
+          "name": "8",
+          "settings": {
+            "title": "これらのパッチを他のスキンケア製品と一緒に使えますか？",
+            "content": "<p>はい！他の製品を使う前に、清潔で乾いた肌にパッチを適用してください。取り外した後は、通常のスキンケアルーティンを続けてください。</p>"
+          }
+        },
+        "item_N4XAyr": {
+          "type": "item",
+          "name": "9",
+          "settings": {
+            "title": "パッチは敏感肌に安全ですか？",
+            "content": "<p>はい、当社のパッチは皮膚科医によるテスト済みで、敏感肌を含むすべての肌タイプに適しています。成分は刺激性がありません。</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_wygUyF",
+        "item_ehAiY9",
+        "item_B69AiT",
+        "item_7rGhAC",
+        "item_jtdczi",
+        "item_4CpTcP",
+        "item_yBhtKf",
+        "item_8MzqxV",
+        "item_N4XAyr"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "よくある質問",
+        "content": "",
+        "team_avatar": "shopify://shop_images/CS_PNG.png",
+        "team_avatar_width": 350,
+        "support_hours": "当社のカスタマーサービスチームは24時間年中無休で対応しています。",
+        "answer_time": "平均回答時間：24時間",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
     }
   },
   "order": [
@@ -1104,6 +1215,7 @@
     "17628470156ad20906",
     "rich_text_7xqNzc",
     "image_with_text_overlay_QMny4R",
-    "1762848058de4aa761"
+    "1762848058de4aa761",
+    "faq_wWH7rx"
   ]
 }
