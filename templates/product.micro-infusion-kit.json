@@ -729,22 +729,29 @@
         "item_MxqmAC": {
           "type": "item",
           "settings": {
-            "percent": 94,
-            "text": "明らかに柔らかく、滑らかな肌を報告しました。"
+            "percent": 97,
+            "text": "細かい線やしわの目に見える減少を確認しました"
           }
         },
         "item_XAKrwP": {
           "type": "item",
           "settings": {
-            "percent": 93,
-            "text": "目の周りの肌がより引き締まり、滑らかになったのを感じました。"
+            "percent": 97,
+            "text": "治療が気に入った"
           }
         },
         "item_jyVH4a": {
           "type": "item",
           "settings": {
-            "percent": 91,
-            "text": "4週間以内に水分補給が改善されました。"
+            "percent": 94,
+            "text": "より引き締まり、ふっくらとし、より輝く肌を実感"
+          }
+        },
+        "item_6VyBDP": {
+          "type": "item",
+          "settings": {
+            "percent": 90,
+            "text": "Noticed that this product has significantly improved their life."
           }
         }
       },
@@ -754,7 +761,8 @@
         "heading_9ND8Uz",
         "item_MxqmAC",
         "item_XAKrwP",
-        "item_jyVH4a"
+        "item_jyVH4a",
+        "item_6VyBDP"
       ],
       "name": "Features",
       "settings": {
