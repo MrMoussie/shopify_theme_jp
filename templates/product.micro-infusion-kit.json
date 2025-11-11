@@ -710,6 +710,22 @@
             "text_color": "#1a1a1a"
           }
         },
+        "heading_9ND8Uz": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>なぜセレスティアは普通のクリームが失敗するところで成功するのか...</strong></p>",
+            "heading_custom": false,
+            "heading_font": "josefin_sans_n4",
+            "heading_size": 28,
+            "heading_size_mobile": 18,
+            "heading_height": 130,
+            "heading_mt": 0,
+            "heading_mt_mobile": 0,
+            "heading_align": "left",
+            "heading_align_mobile": "left",
+            "heading_color": "#000000"
+          }
+        },
         "item_MxqmAC": {
           "type": "item",
           "settings": {
@@ -735,6 +751,7 @@
       "block_order": [
         "media_YTaX4F",
         "text_rxpqkA",
+        "heading_9ND8Uz",
         "item_MxqmAC",
         "item_XAKrwP",
         "item_jyVH4a"
