@@ -865,6 +865,14 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "how_to_use_iYVrP6": {
+      "type": "how-to-use",
+      "custom_css": [
+        ".how-to-use {padding-bottom: 0px !important;}"
+      ],
+      "name": "How to Use",
+      "settings": {}
     }
   },
   "order": [
@@ -875,6 +883,7 @@
     "multi_column_XbDgJt",
     "ss_scrolling_logo_cloud_9Q9K34",
     "ss_feature_17_QG9WBE",
-    "rich_text_YktWmq"
+    "rich_text_YktWmq",
+    "how_to_use_iYVrP6"
   ]
 }
