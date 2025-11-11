@@ -1182,8 +1182,8 @@
           "type": "item",
           "name": "12",
           "settings": {
-            "title": "Question",
-            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
+            "title": "この製品は傷跡の軽減にも効果がありますか？",
+            "content": "<p>はい、マイクロ・インフュージョン・キットは、ニキビ跡や表面的な瘢痕など、特定のタイプの瘢痕の見た目を改善することができます。<br/><br/>マイクロニードルのプロセスはコラーゲンの生成を刺激し、時間の経過とともに傷跡を柔らかくし、薄くしていきます。<br/><br/>ただし、深い傷跡や重度の傷跡の場合は、結果が異なる場合があります。<br/><br/>90日間の返金保証がすべてのご注文に適用されますので、ご安心ください。</p>"
           }
         },
         "item_mePQWU": {
