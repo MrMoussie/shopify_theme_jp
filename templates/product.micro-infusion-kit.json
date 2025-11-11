@@ -836,8 +836,8 @@
         "heading_pXNK77": {
           "type": "heading",
           "settings": {
-            "text": "Heading",
-            "heading_tag": "h1",
+            "text": "4つの簡単なステップで新しいスキンケアルーティンを見つけましょう",
+            "heading_tag": "h2",
             "text_color": "",
             "gradient": ""
           }
@@ -845,7 +845,7 @@
         "richtext_iJYCMP": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+            "content": "<p>皮膚科医は、最適な結果を得るために<span style=\"text-decoration:underline\"><strong>2週間ごとに1回の治療</strong></span>を受けることを推奨しています。</p>"
           }
         }
       },
