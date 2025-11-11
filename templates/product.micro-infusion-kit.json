@@ -1190,8 +1190,8 @@
           "type": "item",
           "name": "13",
           "settings": {
-            "title": "Question",
-            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
+            "title": "使いやすいですか？明確な説明がありますか？",
+            "content": "<p>はい、マイクロインフュージョンキットは<strong>シンプルで使いやすく</strong>、各治療はわずか<strong>5〜10分</strong>で完了します。</p><p>すべての注文には、<strong>わかりやすいビデオ説明</strong>と<strong>詳細なマニュアル</strong>が付属しており、プロセス全体を案内して最高の結果を得られるようにしています。</p><p>説明書は、デバイスの準備から美容液の塗布、適切なアフターケアまで、すべてをカバーしています。</p><p>このタイプのスキンケアが初めての方でも、簡単に手順を追うことができます。</p>"
           }
         },
         "item_CRGrfA": {
