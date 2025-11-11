@@ -1222,16 +1222,16 @@
           "type": "item",
           "name": "17",
           "settings": {
-            "title": "Question",
-            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
+            "title": "マイクロインフュージョンキットは、赤色光療法およびRFレーザーと安全に併用できますか？",
+            "content": "<p>はい、マイクロインフュージョンキットは、<strong>赤色光療法</strong>や<strong>RF（高周波）レーザー療法</strong>などの治療と<strong>安全に組み合わせる</strong>ことができます。</p><p>ただし、これらの追加治療を行う前に、マイクロインフュージョンキット使用後は<strong>少なくとも2晩の回復期間</strong>を設けることが重要です。<br/><br/>これにより、お肌が再生する時間が確保され、すべての治療の<strong>効果を最大化</strong>します。</p>"
           }
         },
         "item_UHn9Rt": {
           "type": "item",
           "name": "18",
           "settings": {
-            "title": "Question",
-            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
+            "title": "1回の施術でどのくらいの範囲をカバーできますか？顔と首に十分ですか？",
+            "content": "<p>はい、各トリートメントで<strong>顔と首の両方</strong>をカバーするのに十分なセラムが含まれています。</p><p>おそらく少しセラムが余るので、トリートメント後に顔や首に優しく塗って、<strong>保湿と吸収を最大化</strong>することができます。</p>"
           }
         }
       },
