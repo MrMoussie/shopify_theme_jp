@@ -943,6 +943,23 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "image_with_text_overlay_XWMhpU": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/benefits.svg",
+        "mobile_image": "shopify://shop_images/benefits.svg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
     }
   },
   "order": [
@@ -955,6 +972,7 @@
     "ss_feature_17_QG9WBE",
     "rich_text_YktWmq",
     "how_to_use_iYVrP6",
-    "rich_text_UYUxPR"
+    "rich_text_UYUxPR",
+    "image_with_text_overlay_XWMhpU"
   ]
 }
