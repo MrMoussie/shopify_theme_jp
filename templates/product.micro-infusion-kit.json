@@ -1214,8 +1214,8 @@
           "type": "item",
           "name": "16",
           "settings": {
-            "title": "Question",
-            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
+            "title": "自分のセラムでキットを使えますか？",
+            "content": "<p><strong>付属のセラム以外のセラムとマイクロインフュージョンキットを併用しないことを推奨します</strong></p><p>付属のセラムは、マイクロニードリング技術と完全に調和するように<strong>特別に配合されており</strong>、<strong>最適な効果と安全性</strong>を保証します。</p>"
           }
         },
         "item_rVnP8e": {
