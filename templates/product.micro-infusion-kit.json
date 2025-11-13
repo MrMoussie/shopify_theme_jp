@@ -1206,8 +1206,8 @@
           "type": "item",
           "name": "15",
           "settings": {
-            "title": "Question",
-            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
+            "title": "すでに美容注射を受けたことがある場合でも、マイクロインフュージョンキットを使用できますか？",
+            "content": "<p>はい、すでに美容注射を受けていても、マイクロインフュージョンキットを使用できます。</p><p>ただし、注射後<strong>少なくとも2週間待つこと</strong>をお勧めします。<br/><br/>これは注入された製品が安定するのを促し、結果への干渉を避けるためです。</p>"
           }
         },
         "item_YVAiez": {
