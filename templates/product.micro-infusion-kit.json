@@ -70,7 +70,7 @@
           "name": "Free gift",
           "settings": {
             "image": "shopify://shop_images/2.png",
-            "alignment": "start",
+            "alignment": "center",
             "max_width": 500
           }
         },
