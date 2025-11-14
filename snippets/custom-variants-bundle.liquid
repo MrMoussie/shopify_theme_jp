@@ -46,7 +46,7 @@
                 {{ option_value }}
 
                 {% if total_kits != blank and total_kits > 1 %}
-                  <span class="price_per_kit">{{ price_regular | divided_by: total_kits | money }} per kit</span>
+                  <span class="price_per_kit">1回あたり 約{{ price_regular | divided_by: total_kits | divided_by: 2 | money }}</span>
                 {% endif %}
               </div>
               {% if variant_info != blank %}
