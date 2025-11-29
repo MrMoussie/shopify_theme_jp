@@ -59,11 +59,6 @@
     "checkout_button_color": "#1a1a1a",
     "content_for_index": [],
     "blocks": {
-      "12657775114333427046": {
-        "type": "shopify://apps/countdown-timer-essential/blocks/app_embed/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
-        "disabled": false,
-        "settings": {}
-      },
       "11532412952436166569": {
         "type": "shopify://apps/loox-reviews/blocks/loox-inject/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
         "disabled": false,
@@ -93,6 +88,11 @@
       },
       "5460033060862993441": {
         "type": "shopify://apps/essential-announcer/blocks/app-embed/93b5429f-c8d6-4c33-ae14-250fd84f361b",
+        "disabled": false,
+        "settings": {}
+      },
+      "9241046253743163954": {
+        "type": "shopify://apps/sticky-add-to-cart-bar/blocks/app-embed/e98261d9-7a53-483b-8aaa-054afd5be639",
         "disabled": false,
         "settings": {}
       }
