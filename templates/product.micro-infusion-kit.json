@@ -69,7 +69,7 @@
           "type": "image",
           "name": "Free gift",
           "settings": {
-            "image": "shopify://shop_images/CM_JP.png",
+            "image": "shopify://shop_images/JA_JP_FIN.png",
             "alignment": "center",
             "max_width": 500
           }
