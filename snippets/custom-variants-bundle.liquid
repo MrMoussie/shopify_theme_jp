@@ -57,9 +57,9 @@
               {% endif %}
             </div>
             <div class="bundle__bar-price">
-              <div class="custom_price_regular">1回あたり 約{{ price_regular | divided_by: total_kits | money | remove: '.00' }} per kit</div>
+              <div class="custom_price_regular">1回あたり 約{{ price_regular | divided_by: total_kits | money | remove: '.00' }}</div>
               {% if compare_price > price_regular %}
-                <div class="custom_price_compare">1回あたり 約{{ compare_price | divided_by: total_kits | money | remove: '.00' }} per kit</div>
+                <div class="custom_price_compare">1回あたり 約{{ compare_price | divided_by: total_kits | money | remove: '.00' }}</div>
               {% endif %}
             </div>
           </div>
