@@ -10115,3 +10115,18 @@ shopify-accelerated-checkout, shopify-accelerated-checkout-cart {
   display: -webkit-box;
   overflow: hidden;
 }
+
+
+/* Custom CSS start Noman */
+.compare-price {
+  text-decoration: line-through;
+  text-decoration-thickness: 2px;
+}
+.atc-price-wrapper {
+  margin-left: 2px;
+}
+.guarantee-div {
+  margin-bottom: 10px;
+  text-align: center;
+}
+/* Custom CSS End Noman */
