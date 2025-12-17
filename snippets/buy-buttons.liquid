@@ -30,6 +30,7 @@ Supported variables
 {%- endif -%}
 
 {%- form 'product', product, is: 'product-form', id: form_id -%}
+  <div class="guarantee-div">90 Day Money Back Guarantee</div>
   <input type="hidden" class="product-id" {% if variant_picker_block != blank %}disabled{% endif %} name="id" value="{{ product.selected_or_first_available_variant.id }}">
 
   {%- assign button_disabled = false -%}
@@ -42,7 +43,23 @@ Supported variables
     {%- if product.template_suffix contains 'pre-order' -%}
       {%- capture button_content -%}{{ 'product.general.pre_order_button' | t }}{%- endcapture -%}
     {%- else -%}
-      {%- capture button_content -%}{{ 'product.general.add_to_cart_button' | t }}{%- endcapture -%}
+      {% comment %} {%- capture button_content -%}{{ 'product.general.add_to_cart_button' | t }}{%- endcapture -%} {% endcomment %}
+      {%- capture button_content -%}
+        {{ 'product.general.add_to_cart_button' | t }}
+        <span class="atc-price-wrapper">
+          {%- if product.selected_or_first_available_variant.compare_at_price > product.selected_or_first_available_variant.price -%} •
+            <span class="current-price" data-atc-current-price>
+               {{ product.selected_or_first_available_variant.price | money | remove: '.00' }}
+            </span>
+            <span class="compare-price" data-atc-compare-price>
+              {{ product.selected_or_first_available_variant.compare_at_price | money | remove: '.00' }}
+            </span>
+          {%- else -%}
+            <span class="current-price">{{ product.selected_or_first_available_variant.price | money | remove: '.00' }}</span>
+          {%- endif -%}
+        </span>
+      {%- endcapture -%}
+
     {%- endif -%}
   {%- else -%}
     {%- capture button_content -%}{{ 'product.general.sold_out_button' | t }}{%- endcapture -%}
