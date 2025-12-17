@@ -68,6 +68,7 @@
         "image_8amWEW": {
           "type": "image",
           "name": "Free gift",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/JA_JP_FIN.png",
             "alignment": "center",
