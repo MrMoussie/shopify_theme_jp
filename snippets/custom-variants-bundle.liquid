@@ -9,10 +9,13 @@
       {% assign variant_info = variant.metafields.custom.info_text %}
       {% assign free_gift_image = variant.metafields.custom.free_gift_image %}
       {% assign free_gift_text = variant.metafields.custom.free_gift_text %}
+      {% assign free_gift_image_2 = variant.metafields.custom.free_gift_image_2 %}
+      {% assign free_gift_text_2 = variant.metafields.custom.free_gift_text_2 %}
       {% assign free_shipping_image = variant.metafields.custom.free_shipping_icon %}
       {% assign free_shipping_text = variant.metafields.custom.free_shipping_text %}
       {% assign variant_image = variant.metafields.custom.variant_image %}
-      {% assign total_kits = variant.metafields.custom.total_kits %}
+      {% assign total_kits = variant.metafields.custom.total_kits | default: 1 %}
+      
       
       {%- if compare_price > price_regular -%}
         {% assign discount_percentage = 100 | times: compare_price | minus: price_regular | divided_by: compare_price | round %}
@@ -45,8 +48,8 @@
               <div class="custom_label_title">
                 {{ option_value }}
 
-                {% if total_kits != blank and total_kits > 1 %}
-                  <span class="price_per_kit">1回あたり 約{{ price_regular | divided_by: total_kits | divided_by: 2 | money }}</span>
+                {% if total_kits != blank and total_kits > 1 and false %} {% comment %} Disabled for now {% endcomment %}
+                  <span class="price_per_kit">1回あたり 約{{ price_regular | divided_by: total_kits | money | remove: '.00' }}</span>
                 {% endif %}
               </div>
               {% if variant_info != blank %}
@@ -54,9 +57,9 @@
               {% endif %}
             </div>
             <div class="bundle__bar-price">
-              <div class="custom_price_regular">{{ price_regular | money }}</div>
+              <div class="custom_price_regular">1回あたり 約{{ price_regular | divided_by: total_kits | money | remove: '.00' }} per kit</div>
               {% if compare_price > price_regular %}
-                <div class="custom_price_compare">{{ compare_price | money }}</div>
+                <div class="custom_price_compare">1回あたり 約{{ compare_price | divided_by: total_kits | money | remove: '.00' }} per kit</div>
               {% endif %}
             </div>
           </div>
@@ -68,6 +71,16 @@
               {% endif %}
               {% if free_gift_text != blank %}
                 <div class="free-gift-text">{{ free_gift_text }}</div>
+              {% endif %}
+            </div>
+          {% endif %}
+          {% if free_gift_image_2 != blank or free_gift_text_2 != blank %}
+            <div class="custom_label_free-gift">
+              {% if free_gift_image_2 != blank %}
+                <img loading="lazy" src="{{ free_gift_image_2 | img_url: '50x' }}" alt="{{ free_gift_image_2.alt }}">
+              {% endif %}
+              {% if free_gift_text_2 != blank %}
+                <div class="free-gift-text">{{ free_gift_text_2 }}</div>
               {% endif %}
             </div>
           {% endif %}
