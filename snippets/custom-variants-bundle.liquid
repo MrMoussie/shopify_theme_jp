@@ -49,7 +49,7 @@
                 {{ option_value }}
 
                 {% if total_kits != blank and total_kits > 1 and false %} {% comment %} Disabled for now {% endcomment %}
-                  <span class="price_per_kit">1回あたり 約 {{ price_regular | divided_by: total_kits | money | remove: '.00' }}</span>
+                  <span class="price_per_kit">キットあたり {{ price_regular | divided_by: total_kits | money | remove: '.00' }}</span>
                 {% endif %}
               </div>
               {% if variant_info != blank %}
@@ -57,9 +57,9 @@
               {% endif %}
             </div>
             <div class="bundle__bar-price">
-              <div class="custom_price_regular">1回あたり 約 {{ price_regular | divided_by: total_kits | money | remove: '.00' }}</div>
+              <div class="custom_price_regular">キットあたり {{ price_regular | divided_by: total_kits | money | remove: '.00' }}</div>
               {% if compare_price > price_regular %}
-                <div class="custom_price_compare">1回あたり 約 {{ compare_price | divided_by: total_kits | money | remove: '.00' }}</div>
+                <div class="custom_price_compare">キットあたり {{ compare_price | divided_by: total_kits | money | remove: '.00' }}</div>
               {% endif %}
             </div>
           </div>
